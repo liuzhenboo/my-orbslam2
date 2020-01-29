@@ -1,5 +1,5 @@
 option( BUILD_Monocular "Build Monocular" ON )
-option( BUILD_Rgbd "Build Rgbd" OFF )
+option( BUILD_Rgbd "Build Rgbd" ON )
 option( BUILD_Stereo "Build Stereo" ON )
 
 if(BUILD_Monocular)

@@ -43,7 +43,7 @@ LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 #Build options
 option( BUILD_Src "Build Src" ON )
 option( BUILD_Examples "Build Examples" ON )
-option( BUILD_Tools "Build Tools" OFF )
+option( BUILD_Tools "Build Tools" ON )
 
 if(BUILD_Src)
    add_subdirectory("src")
