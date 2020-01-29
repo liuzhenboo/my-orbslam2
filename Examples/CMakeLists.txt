@@ -1,0 +1,13 @@
+option( BUILD_Monocular "Build Monocular" ON )
+option( BUILD_Rgbd "Build Rgbd" OFF )
+option( BUILD_Stereo "Build Stereo" ON )
+
+if(BUILD_Monocular)
+   add_subdirectory("Monocular")
+endif()
+if(BUILD_Rgbd)
+   add_subdirectory("RGB-D")
+endif()
+if(BUILD_Stereo)
+   add_subdirectory("Stereo")
+endif()
