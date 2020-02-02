@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzb/ORBSLAM/my-orbslam2
+CMAKE_SOURCE_DIR = /home/lzb/G-ORBSLAM/my-orbslam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzb/ORBSLAM/my-orbslam2/build
+CMAKE_BINARY_DIR = /home/lzb/G-ORBSLAM/my-orbslam2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/ORBSLAM/my-orbslam2/build/Examples/Stereo/CMakeFiles/progress.marks
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/G-ORBSLAM/my-orbslam2/build/Examples/Stereo/CMakeFiles/progress.marks
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/clean
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Stereo/CMakeFiles/stereo_kitti.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/CMakeFiles/stereo_kitti.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/CMakeFiles/stereo_kitti.dir/rule
 .PHONY : Examples/Stereo/CMakeFiles/stereo_kitti.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ stereo_kitti: Examples/Stereo/CMakeFiles/stereo_kitti.dir/rule
 
 # fast build rule for target.
 stereo_kitti/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/build
 .PHONY : stereo_kitti/fast
 
 # Convenience name for target.
 Examples/Stereo/CMakeFiles/stereo_euroc.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/CMakeFiles/stereo_euroc.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Stereo/CMakeFiles/stereo_euroc.dir/rule
 .PHONY : Examples/Stereo/CMakeFiles/stereo_euroc.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ stereo_euroc: Examples/Stereo/CMakeFiles/stereo_euroc.dir/rule
 
 # fast build rule for target.
 stereo_euroc/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/build
 .PHONY : stereo_euroc/fast
 
 stereo_euroc.o: stereo_euroc.cc.o
@@ -146,7 +146,7 @@ stereo_euroc.o: stereo_euroc.cc.o
 
 # target to build an object file
 stereo_euroc.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/stereo_euroc.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/stereo_euroc.cc.o
 .PHONY : stereo_euroc.cc.o
 
 stereo_euroc.i: stereo_euroc.cc.i
@@ -155,7 +155,7 @@ stereo_euroc.i: stereo_euroc.cc.i
 
 # target to preprocess a source file
 stereo_euroc.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/stereo_euroc.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/stereo_euroc.cc.i
 .PHONY : stereo_euroc.cc.i
 
 stereo_euroc.s: stereo_euroc.cc.s
@@ -164,7 +164,7 @@ stereo_euroc.s: stereo_euroc.cc.s
 
 # target to generate assembly for a file
 stereo_euroc.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/stereo_euroc.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/stereo_euroc.cc.s
 .PHONY : stereo_euroc.cc.s
 
 stereo_kitti.o: stereo_kitti.cc.o
@@ -173,7 +173,7 @@ stereo_kitti.o: stereo_kitti.cc.o
 
 # target to build an object file
 stereo_kitti.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/stereo_kitti.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/stereo_kitti.cc.o
 .PHONY : stereo_kitti.cc.o
 
 stereo_kitti.i: stereo_kitti.cc.i
@@ -182,7 +182,7 @@ stereo_kitti.i: stereo_kitti.cc.i
 
 # target to preprocess a source file
 stereo_kitti.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/stereo_kitti.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/stereo_kitti.cc.i
 .PHONY : stereo_kitti.cc.i
 
 stereo_kitti.s: stereo_kitti.cc.s
@@ -191,7 +191,7 @@ stereo_kitti.s: stereo_kitti.cc.s
 
 # target to generate assembly for a file
 stereo_kitti.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/stereo_kitti.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Stereo/CMakeFiles/stereo_kitti.dir/build.make Examples/Stereo/CMakeFiles/stereo_kitti.dir/stereo_kitti.cc.s
 .PHONY : stereo_kitti.cc.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

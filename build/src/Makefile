@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzb/ORBSLAM/my-orbslam2
+CMAKE_SOURCE_DIR = /home/lzb/G-ORBSLAM/my-orbslam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzb/ORBSLAM/my-orbslam2/build
+CMAKE_BINARY_DIR = /home/lzb/G-ORBSLAM/my-orbslam2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/ORBSLAM/my-orbslam2/build/src/CMakeFiles/progress.marks
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/G-ORBSLAM/my-orbslam2/build/src/CMakeFiles/progress.marks
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/ORB_SLAM2.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ORB_SLAM2.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ORB_SLAM2.dir/rule
 .PHONY : src/CMakeFiles/ORB_SLAM2.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ORB_SLAM2: src/CMakeFiles/ORB_SLAM2.dir/rule
 
 # fast build rule for target.
 ORB_SLAM2/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/build
 .PHONY : ORB_SLAM2/fast
 
 Converter.o: Converter.cc.o
@@ -131,7 +131,7 @@ Converter.o: Converter.cc.o
 
 # target to build an object file
 Converter.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.o
 .PHONY : Converter.cc.o
 
 Converter.i: Converter.cc.i
@@ -140,7 +140,7 @@ Converter.i: Converter.cc.i
 
 # target to preprocess a source file
 Converter.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.i
 .PHONY : Converter.cc.i
 
 Converter.s: Converter.cc.s
@@ -149,7 +149,7 @@ Converter.s: Converter.cc.s
 
 # target to generate assembly for a file
 Converter.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.s
 .PHONY : Converter.cc.s
 
 Frame.o: Frame.cc.o
@@ -158,7 +158,7 @@ Frame.o: Frame.cc.o
 
 # target to build an object file
 Frame.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.o
 .PHONY : Frame.cc.o
 
 Frame.i: Frame.cc.i
@@ -167,7 +167,7 @@ Frame.i: Frame.cc.i
 
 # target to preprocess a source file
 Frame.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.i
 .PHONY : Frame.cc.i
 
 Frame.s: Frame.cc.s
@@ -176,7 +176,7 @@ Frame.s: Frame.cc.s
 
 # target to generate assembly for a file
 Frame.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.s
 .PHONY : Frame.cc.s
 
 FrameDrawer.o: FrameDrawer.cc.o
@@ -185,7 +185,7 @@ FrameDrawer.o: FrameDrawer.cc.o
 
 # target to build an object file
 FrameDrawer.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.o
 .PHONY : FrameDrawer.cc.o
 
 FrameDrawer.i: FrameDrawer.cc.i
@@ -194,7 +194,7 @@ FrameDrawer.i: FrameDrawer.cc.i
 
 # target to preprocess a source file
 FrameDrawer.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.i
 .PHONY : FrameDrawer.cc.i
 
 FrameDrawer.s: FrameDrawer.cc.s
@@ -203,7 +203,7 @@ FrameDrawer.s: FrameDrawer.cc.s
 
 # target to generate assembly for a file
 FrameDrawer.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.s
 .PHONY : FrameDrawer.cc.s
 
 Initializer.o: Initializer.cc.o
@@ -212,7 +212,7 @@ Initializer.o: Initializer.cc.o
 
 # target to build an object file
 Initializer.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.o
 .PHONY : Initializer.cc.o
 
 Initializer.i: Initializer.cc.i
@@ -221,7 +221,7 @@ Initializer.i: Initializer.cc.i
 
 # target to preprocess a source file
 Initializer.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.i
 .PHONY : Initializer.cc.i
 
 Initializer.s: Initializer.cc.s
@@ -230,7 +230,7 @@ Initializer.s: Initializer.cc.s
 
 # target to generate assembly for a file
 Initializer.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.s
 .PHONY : Initializer.cc.s
 
 KeyFrame.o: KeyFrame.cc.o
@@ -239,7 +239,7 @@ KeyFrame.o: KeyFrame.cc.o
 
 # target to build an object file
 KeyFrame.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.o
 .PHONY : KeyFrame.cc.o
 
 KeyFrame.i: KeyFrame.cc.i
@@ -248,7 +248,7 @@ KeyFrame.i: KeyFrame.cc.i
 
 # target to preprocess a source file
 KeyFrame.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.i
 .PHONY : KeyFrame.cc.i
 
 KeyFrame.s: KeyFrame.cc.s
@@ -257,7 +257,7 @@ KeyFrame.s: KeyFrame.cc.s
 
 # target to generate assembly for a file
 KeyFrame.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.s
 .PHONY : KeyFrame.cc.s
 
 KeyFrameDatabase.o: KeyFrameDatabase.cc.o
@@ -266,7 +266,7 @@ KeyFrameDatabase.o: KeyFrameDatabase.cc.o
 
 # target to build an object file
 KeyFrameDatabase.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.o
 .PHONY : KeyFrameDatabase.cc.o
 
 KeyFrameDatabase.i: KeyFrameDatabase.cc.i
@@ -275,7 +275,7 @@ KeyFrameDatabase.i: KeyFrameDatabase.cc.i
 
 # target to preprocess a source file
 KeyFrameDatabase.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.i
 .PHONY : KeyFrameDatabase.cc.i
 
 KeyFrameDatabase.s: KeyFrameDatabase.cc.s
@@ -284,7 +284,7 @@ KeyFrameDatabase.s: KeyFrameDatabase.cc.s
 
 # target to generate assembly for a file
 KeyFrameDatabase.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.s
 .PHONY : KeyFrameDatabase.cc.s
 
 LocalMapping.o: LocalMapping.cc.o
@@ -293,7 +293,7 @@ LocalMapping.o: LocalMapping.cc.o
 
 # target to build an object file
 LocalMapping.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.o
 .PHONY : LocalMapping.cc.o
 
 LocalMapping.i: LocalMapping.cc.i
@@ -302,7 +302,7 @@ LocalMapping.i: LocalMapping.cc.i
 
 # target to preprocess a source file
 LocalMapping.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.i
 .PHONY : LocalMapping.cc.i
 
 LocalMapping.s: LocalMapping.cc.s
@@ -311,7 +311,7 @@ LocalMapping.s: LocalMapping.cc.s
 
 # target to generate assembly for a file
 LocalMapping.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.s
 .PHONY : LocalMapping.cc.s
 
 LoopClosing.o: LoopClosing.cc.o
@@ -320,7 +320,7 @@ LoopClosing.o: LoopClosing.cc.o
 
 # target to build an object file
 LoopClosing.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.o
 .PHONY : LoopClosing.cc.o
 
 LoopClosing.i: LoopClosing.cc.i
@@ -329,7 +329,7 @@ LoopClosing.i: LoopClosing.cc.i
 
 # target to preprocess a source file
 LoopClosing.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.i
 .PHONY : LoopClosing.cc.i
 
 LoopClosing.s: LoopClosing.cc.s
@@ -338,7 +338,7 @@ LoopClosing.s: LoopClosing.cc.s
 
 # target to generate assembly for a file
 LoopClosing.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.s
 .PHONY : LoopClosing.cc.s
 
 Map.o: Map.cc.o
@@ -347,7 +347,7 @@ Map.o: Map.cc.o
 
 # target to build an object file
 Map.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Map.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Map.cc.o
 .PHONY : Map.cc.o
 
 Map.i: Map.cc.i
@@ -356,7 +356,7 @@ Map.i: Map.cc.i
 
 # target to preprocess a source file
 Map.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Map.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Map.cc.i
 .PHONY : Map.cc.i
 
 Map.s: Map.cc.s
@@ -365,7 +365,7 @@ Map.s: Map.cc.s
 
 # target to generate assembly for a file
 Map.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Map.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Map.cc.s
 .PHONY : Map.cc.s
 
 MapDrawer.o: MapDrawer.cc.o
@@ -374,7 +374,7 @@ MapDrawer.o: MapDrawer.cc.o
 
 # target to build an object file
 MapDrawer.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.o
 .PHONY : MapDrawer.cc.o
 
 MapDrawer.i: MapDrawer.cc.i
@@ -383,7 +383,7 @@ MapDrawer.i: MapDrawer.cc.i
 
 # target to preprocess a source file
 MapDrawer.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.i
 .PHONY : MapDrawer.cc.i
 
 MapDrawer.s: MapDrawer.cc.s
@@ -392,7 +392,7 @@ MapDrawer.s: MapDrawer.cc.s
 
 # target to generate assembly for a file
 MapDrawer.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.s
 .PHONY : MapDrawer.cc.s
 
 MapPoint.o: MapPoint.cc.o
@@ -401,7 +401,7 @@ MapPoint.o: MapPoint.cc.o
 
 # target to build an object file
 MapPoint.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.o
 .PHONY : MapPoint.cc.o
 
 MapPoint.i: MapPoint.cc.i
@@ -410,7 +410,7 @@ MapPoint.i: MapPoint.cc.i
 
 # target to preprocess a source file
 MapPoint.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.i
 .PHONY : MapPoint.cc.i
 
 MapPoint.s: MapPoint.cc.s
@@ -419,7 +419,7 @@ MapPoint.s: MapPoint.cc.s
 
 # target to generate assembly for a file
 MapPoint.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.s
 .PHONY : MapPoint.cc.s
 
 ORBextractor.o: ORBextractor.cc.o
@@ -428,7 +428,7 @@ ORBextractor.o: ORBextractor.cc.o
 
 # target to build an object file
 ORBextractor.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.o
 .PHONY : ORBextractor.cc.o
 
 ORBextractor.i: ORBextractor.cc.i
@@ -437,7 +437,7 @@ ORBextractor.i: ORBextractor.cc.i
 
 # target to preprocess a source file
 ORBextractor.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.i
 .PHONY : ORBextractor.cc.i
 
 ORBextractor.s: ORBextractor.cc.s
@@ -446,7 +446,7 @@ ORBextractor.s: ORBextractor.cc.s
 
 # target to generate assembly for a file
 ORBextractor.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.s
 .PHONY : ORBextractor.cc.s
 
 ORBmatcher.o: ORBmatcher.cc.o
@@ -455,7 +455,7 @@ ORBmatcher.o: ORBmatcher.cc.o
 
 # target to build an object file
 ORBmatcher.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.o
 .PHONY : ORBmatcher.cc.o
 
 ORBmatcher.i: ORBmatcher.cc.i
@@ -464,7 +464,7 @@ ORBmatcher.i: ORBmatcher.cc.i
 
 # target to preprocess a source file
 ORBmatcher.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.i
 .PHONY : ORBmatcher.cc.i
 
 ORBmatcher.s: ORBmatcher.cc.s
@@ -473,7 +473,7 @@ ORBmatcher.s: ORBmatcher.cc.s
 
 # target to generate assembly for a file
 ORBmatcher.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.s
 .PHONY : ORBmatcher.cc.s
 
 Optimizer.o: Optimizer.cc.o
@@ -482,7 +482,7 @@ Optimizer.o: Optimizer.cc.o
 
 # target to build an object file
 Optimizer.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.o
 .PHONY : Optimizer.cc.o
 
 Optimizer.i: Optimizer.cc.i
@@ -491,7 +491,7 @@ Optimizer.i: Optimizer.cc.i
 
 # target to preprocess a source file
 Optimizer.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.i
 .PHONY : Optimizer.cc.i
 
 Optimizer.s: Optimizer.cc.s
@@ -500,7 +500,7 @@ Optimizer.s: Optimizer.cc.s
 
 # target to generate assembly for a file
 Optimizer.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.s
 .PHONY : Optimizer.cc.s
 
 PnPsolver.o: PnPsolver.cc.o
@@ -509,7 +509,7 @@ PnPsolver.o: PnPsolver.cc.o
 
 # target to build an object file
 PnPsolver.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.o
 .PHONY : PnPsolver.cc.o
 
 PnPsolver.i: PnPsolver.cc.i
@@ -518,7 +518,7 @@ PnPsolver.i: PnPsolver.cc.i
 
 # target to preprocess a source file
 PnPsolver.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.i
 .PHONY : PnPsolver.cc.i
 
 PnPsolver.s: PnPsolver.cc.s
@@ -527,7 +527,7 @@ PnPsolver.s: PnPsolver.cc.s
 
 # target to generate assembly for a file
 PnPsolver.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.s
 .PHONY : PnPsolver.cc.s
 
 Sim3Solver.o: Sim3Solver.cc.o
@@ -536,7 +536,7 @@ Sim3Solver.o: Sim3Solver.cc.o
 
 # target to build an object file
 Sim3Solver.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.o
 .PHONY : Sim3Solver.cc.o
 
 Sim3Solver.i: Sim3Solver.cc.i
@@ -545,7 +545,7 @@ Sim3Solver.i: Sim3Solver.cc.i
 
 # target to preprocess a source file
 Sim3Solver.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.i
 .PHONY : Sim3Solver.cc.i
 
 Sim3Solver.s: Sim3Solver.cc.s
@@ -554,7 +554,7 @@ Sim3Solver.s: Sim3Solver.cc.s
 
 # target to generate assembly for a file
 Sim3Solver.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.s
 .PHONY : Sim3Solver.cc.s
 
 System.o: System.cc.o
@@ -563,7 +563,7 @@ System.o: System.cc.o
 
 # target to build an object file
 System.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/System.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/System.cc.o
 .PHONY : System.cc.o
 
 System.i: System.cc.i
@@ -572,7 +572,7 @@ System.i: System.cc.i
 
 # target to preprocess a source file
 System.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/System.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/System.cc.i
 .PHONY : System.cc.i
 
 System.s: System.cc.s
@@ -581,7 +581,7 @@ System.s: System.cc.s
 
 # target to generate assembly for a file
 System.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/System.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/System.cc.s
 .PHONY : System.cc.s
 
 Tracking.o: Tracking.cc.o
@@ -590,7 +590,7 @@ Tracking.o: Tracking.cc.o
 
 # target to build an object file
 Tracking.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.o
 .PHONY : Tracking.cc.o
 
 Tracking.i: Tracking.cc.i
@@ -599,7 +599,7 @@ Tracking.i: Tracking.cc.i
 
 # target to preprocess a source file
 Tracking.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.i
 .PHONY : Tracking.cc.i
 
 Tracking.s: Tracking.cc.s
@@ -608,7 +608,7 @@ Tracking.s: Tracking.cc.s
 
 # target to generate assembly for a file
 Tracking.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.s
 .PHONY : Tracking.cc.s
 
 Viewer.o: Viewer.cc.o
@@ -617,7 +617,7 @@ Viewer.o: Viewer.cc.o
 
 # target to build an object file
 Viewer.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.o
 .PHONY : Viewer.cc.o
 
 Viewer.i: Viewer.cc.i
@@ -626,7 +626,7 @@ Viewer.i: Viewer.cc.i
 
 # target to preprocess a source file
 Viewer.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.i
 .PHONY : Viewer.cc.i
 
 Viewer.s: Viewer.cc.s
@@ -635,7 +635,7 @@ Viewer.s: Viewer.cc.s
 
 # target to generate assembly for a file
 Viewer.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f src/CMakeFiles/ORB_SLAM2.dir/build.make src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.s
 .PHONY : Viewer.cc.s
 
 # Help Target
@@ -715,6 +715,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

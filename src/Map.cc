@@ -51,7 +51,7 @@ void Map::EraseMapPoint(MapPoint *pMP)
     // TODO: This only erase the pointer.
     // Delete the MapPoint
 
-    // liuzhenbo
+    // liuzhenbo try failed
     /*
     unique_lock<mutex> lock1(MapPoint::mGlobalMutex);
     {

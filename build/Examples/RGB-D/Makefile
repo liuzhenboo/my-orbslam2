@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzb/ORBSLAM/my-orbslam2
+CMAKE_SOURCE_DIR = /home/lzb/G-ORBSLAM/my-orbslam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzb/ORBSLAM/my-orbslam2/build
+CMAKE_BINARY_DIR = /home/lzb/G-ORBSLAM/my-orbslam2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/ORBSLAM/my-orbslam2/build/Examples/RGB-D/CMakeFiles/progress.marks
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/G-ORBSLAM/my-orbslam2/build/Examples/RGB-D/CMakeFiles/progress.marks
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/clean
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rule
 .PHONY : Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ rgbd_tum: Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rule
 
 # fast build rule for target.
 rgbd_tum/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build
 .PHONY : rgbd_tum/fast
 
 rgbd_tum.o: rgbd_tum.cc.o
@@ -131,7 +131,7 @@ rgbd_tum.o: rgbd_tum.cc.o
 
 # target to build an object file
 rgbd_tum.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rgbd_tum.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rgbd_tum.cc.o
 .PHONY : rgbd_tum.cc.o
 
 rgbd_tum.i: rgbd_tum.cc.i
@@ -140,7 +140,7 @@ rgbd_tum.i: rgbd_tum.cc.i
 
 # target to preprocess a source file
 rgbd_tum.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rgbd_tum.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rgbd_tum.cc.i
 .PHONY : rgbd_tum.cc.i
 
 rgbd_tum.s: rgbd_tum.cc.s
@@ -149,7 +149,7 @@ rgbd_tum.s: rgbd_tum.cc.s
 
 # target to generate assembly for a file
 rgbd_tum.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rgbd_tum.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/RGB-D/CMakeFiles/rgbd_tum.dir/build.make Examples/RGB-D/CMakeFiles/rgbd_tum.dir/rgbd_tum.cc.s
 .PHONY : rgbd_tum.cc.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

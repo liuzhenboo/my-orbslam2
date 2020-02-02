@@ -1,4 +1,4 @@
-# Install script for directory: /home/lzb/ORBSLAM/my-orbslam2/Examples/Monocular
+# Install script for directory: /home/lzb/G-ORBSLAM/my-orbslam2/Examples/Monocular
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

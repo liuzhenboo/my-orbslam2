@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall   -O3 -march=native -std=c++11 -O3 -DNDEBUG
 
 CXX_DEFINES = -DCOMPILEDWITHC11
 
-CXX_INCLUDES = -I/home/lzb/ORBSLAM/my-orbslam2/include -I/home/lzb/ORBSLAM/my-orbslam2 -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /usr/local/include/eigen3 
+CXX_INCLUDES = -I/home/lzb/G-ORBSLAM/my-orbslam2/include -I/home/lzb/G-ORBSLAM/my-orbslam2 -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /usr/local/include/eigen3 
 

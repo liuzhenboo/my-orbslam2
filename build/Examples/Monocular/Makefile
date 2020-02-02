@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzb/ORBSLAM/my-orbslam2
+CMAKE_SOURCE_DIR = /home/lzb/G-ORBSLAM/my-orbslam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzb/ORBSLAM/my-orbslam2/build
+CMAKE_BINARY_DIR = /home/lzb/G-ORBSLAM/my-orbslam2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/ORBSLAM/my-orbslam2/build/Examples/Monocular/CMakeFiles/progress.marks
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/G-ORBSLAM/my-orbslam2/build/Examples/Monocular/CMakeFiles/progress.marks
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/clean
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/preinstall
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Monocular/CMakeFiles/mono_euroc.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/CMakeFiles/mono_euroc.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/CMakeFiles/mono_euroc.dir/rule
 .PHONY : Examples/Monocular/CMakeFiles/mono_euroc.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ mono_euroc: Examples/Monocular/CMakeFiles/mono_euroc.dir/rule
 
 # fast build rule for target.
 mono_euroc/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/build
 .PHONY : mono_euroc/fast
 
 # Convenience name for target.
 Examples/Monocular/CMakeFiles/mono_tum.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/CMakeFiles/mono_tum.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/CMakeFiles/mono_tum.dir/rule
 .PHONY : Examples/Monocular/CMakeFiles/mono_tum.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ mono_tum: Examples/Monocular/CMakeFiles/mono_tum.dir/rule
 
 # fast build rule for target.
 mono_tum/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/build
 .PHONY : mono_tum/fast
 
 # Convenience name for target.
 Examples/Monocular/CMakeFiles/mono_kitti.dir/rule:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/CMakeFiles/mono_kitti.dir/rule
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f CMakeFiles/Makefile2 Examples/Monocular/CMakeFiles/mono_kitti.dir/rule
 .PHONY : Examples/Monocular/CMakeFiles/mono_kitti.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ mono_kitti: Examples/Monocular/CMakeFiles/mono_kitti.dir/rule
 
 # fast build rule for target.
 mono_kitti/fast:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/build
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/build
 .PHONY : mono_kitti/fast
 
 mono_euroc.o: mono_euroc.cc.o
@@ -161,7 +161,7 @@ mono_euroc.o: mono_euroc.cc.o
 
 # target to build an object file
 mono_euroc.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/mono_euroc.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/mono_euroc.cc.o
 .PHONY : mono_euroc.cc.o
 
 mono_euroc.i: mono_euroc.cc.i
@@ -170,7 +170,7 @@ mono_euroc.i: mono_euroc.cc.i
 
 # target to preprocess a source file
 mono_euroc.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/mono_euroc.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/mono_euroc.cc.i
 .PHONY : mono_euroc.cc.i
 
 mono_euroc.s: mono_euroc.cc.s
@@ -179,7 +179,7 @@ mono_euroc.s: mono_euroc.cc.s
 
 # target to generate assembly for a file
 mono_euroc.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/mono_euroc.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_euroc.dir/build.make Examples/Monocular/CMakeFiles/mono_euroc.dir/mono_euroc.cc.s
 .PHONY : mono_euroc.cc.s
 
 mono_kitti.o: mono_kitti.cc.o
@@ -188,7 +188,7 @@ mono_kitti.o: mono_kitti.cc.o
 
 # target to build an object file
 mono_kitti.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/mono_kitti.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/mono_kitti.cc.o
 .PHONY : mono_kitti.cc.o
 
 mono_kitti.i: mono_kitti.cc.i
@@ -197,7 +197,7 @@ mono_kitti.i: mono_kitti.cc.i
 
 # target to preprocess a source file
 mono_kitti.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/mono_kitti.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/mono_kitti.cc.i
 .PHONY : mono_kitti.cc.i
 
 mono_kitti.s: mono_kitti.cc.s
@@ -206,7 +206,7 @@ mono_kitti.s: mono_kitti.cc.s
 
 # target to generate assembly for a file
 mono_kitti.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/mono_kitti.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_kitti.dir/build.make Examples/Monocular/CMakeFiles/mono_kitti.dir/mono_kitti.cc.s
 .PHONY : mono_kitti.cc.s
 
 mono_tum.o: mono_tum.cc.o
@@ -215,7 +215,7 @@ mono_tum.o: mono_tum.cc.o
 
 # target to build an object file
 mono_tum.cc.o:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/mono_tum.cc.o
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/mono_tum.cc.o
 .PHONY : mono_tum.cc.o
 
 mono_tum.i: mono_tum.cc.i
@@ -224,7 +224,7 @@ mono_tum.i: mono_tum.cc.i
 
 # target to preprocess a source file
 mono_tum.cc.i:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/mono_tum.cc.i
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/mono_tum.cc.i
 .PHONY : mono_tum.cc.i
 
 mono_tum.s: mono_tum.cc.s
@@ -233,7 +233,7 @@ mono_tum.s: mono_tum.cc.s
 
 # target to generate assembly for a file
 mono_tum.cc.s:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/mono_tum.cc.s
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(MAKE) -f Examples/Monocular/CMakeFiles/mono_tum.dir/build.make Examples/Monocular/CMakeFiles/mono_tum.dir/mono_tum.cc.s
 .PHONY : mono_tum.cc.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lzb/ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lzb/G-ORBSLAM/my-orbslam2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

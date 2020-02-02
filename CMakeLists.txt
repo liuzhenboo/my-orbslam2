@@ -35,6 +35,9 @@ if(NOT OpenCV_FOUND)
    endif()
 endif()
 
+#set(Eigen3_DIR "")
+LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
+
 find_package(Eigen3 3.1.0 REQUIRED)
 find_package(Pangolin REQUIRED)
 
@@ -43,7 +46,7 @@ LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 #Build options
 option( BUILD_Src "Build Src" ON )
 option( BUILD_Examples "Build Examples" ON )
-option( BUILD_Tools "Build Tools" ON )
+option( BUILD_Tools "Build Tools" OFF )
 
 if(BUILD_Src)
    add_subdirectory("src")

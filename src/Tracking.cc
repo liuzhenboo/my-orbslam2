@@ -988,7 +988,10 @@ bool Tracking::NeedNewKeyFrame()
     int nRefMatches = mpReferenceKF->TrackedMapPoints(nMinObs);
 
     // Local Mapping accept keyframes?
+    // 保证LocalMapping的时候不插入关键帧，如果允许插入关键帧，主要会导致建图跟不上跟踪，会导致跟踪丢失；
+    // 设置这个标志位的原因就是要保证跟踪与建图同步
     bool bLocalMappingIdle = mpLocalMapper->AcceptKeyFrames();
+    //bool bLocalMappingIdle = 1;
 
     // Check how many "close" points are being tracked and how many could be potentially created.
     int nNonTrackedClose = 0;
@@ -1054,6 +1057,7 @@ bool Tracking::NeedNewKeyFrame()
 
 void Tracking::CreateNewKeyFrame()
 {
+    //如果mpLocalMapper::mbStopped==1，也就是如果局部建图线程stop，那么不插入关键帧
     if (!mpLocalMapper->SetNotStop(true))
         return;
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/g2o/g2o/stuff/os_specific.c
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/g2o/g2o/stuff/os_specific.c
 os_specific.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/g2o/g2o/stuff/os_specific.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/g2o/g2o/stuff/os_specific.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/g2o/g2o/stuff/os_specific.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/g2o/g2o/stuff/os_specific.h
 stdio.h
 -
 stdlib.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lzb/ORBSLAM/my-orbslam2
+# Install script for directory: /home/lzb/G-ORBSLAM/my-orbslam2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lzb/ORBSLAM/my-orbslam2/build/src/cmake_install.cmake")
-  include("/home/lzb/ORBSLAM/my-orbslam2/build/Examples/cmake_install.cmake")
-  include("/home/lzb/ORBSLAM/my-orbslam2/build/tools/cmake_install.cmake")
+  include("/home/lzb/G-ORBSLAM/my-orbslam2/build/src/cmake_install.cmake")
+  include("/home/lzb/G-ORBSLAM/my-orbslam2/build/Examples/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lzb/ORBSLAM/my-orbslam2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lzb/G-ORBSLAM/my-orbslam2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

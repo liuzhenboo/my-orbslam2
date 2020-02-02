@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzb/ORBSLAM/my-orbslam2
+CMAKE_SOURCE_DIR = /home/lzb/G-ORBSLAM/my-orbslam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzb/ORBSLAM/my-orbslam2/build
+CMAKE_BINARY_DIR = /home/lzb/G-ORBSLAM/my-orbslam2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/ORBSLAM/my-orbslam2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lzb/G-ORBSLAM/my-orbslam2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -201,19 +201,6 @@ stereo_euroc/fast:
 	$(MAKE) -f Examples/Stereo/CMakeFiles/stereo_euroc.dir/build.make Examples/Stereo/CMakeFiles/stereo_euroc.dir/build
 .PHONY : stereo_euroc/fast
 
-#=============================================================================
-# Target rules for targets named bin_vocabulary
-
-# Build rule for target.
-bin_vocabulary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bin_vocabulary
-.PHONY : bin_vocabulary
-
-# fast build rule for target.
-bin_vocabulary/fast:
-	$(MAKE) -f tools/bin_vocabulary/CMakeFiles/bin_vocabulary.dir/build.make tools/bin_vocabulary/CMakeFiles/bin_vocabulary.dir/build
-.PHONY : bin_vocabulary/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -229,7 +216,6 @@ help:
 	@echo "... rgbd_tum"
 	@echo "... stereo_kitti"
 	@echo "... stereo_euroc"
-	@echo "... bin_vocabulary"
 .PHONY : help
 
 

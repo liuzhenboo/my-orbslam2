@@ -28,7 +28,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.o
  ../Thirdparty/g2o/g2o/types/types_sba.h
  ../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h
  ../include/Converter.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Converter.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Converter.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -239,23 +239,18 @@ src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -270,16 +265,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann/all_indices.h
@@ -321,7 +307,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Converter.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -419,7 +404,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.o
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
  ../include/ORBmatcher.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Frame.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Frame.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -631,23 +616,18 @@ src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -662,16 +642,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -713,7 +684,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Frame.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -816,7 +786,7 @@ src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/FrameDrawer.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/FrameDrawer.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -1028,23 +998,18 @@ src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -1059,16 +1024,7 @@ src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -1111,7 +1067,6 @@ src/CMakeFiles/ORB_SLAM2.dir/FrameDrawer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -1281,7 +1236,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Initializer.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Initializer.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -1493,23 +1448,18 @@ src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -1524,16 +1474,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -1575,7 +1516,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Initializer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -1737,7 +1677,7 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.o
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
  ../include/ORBmatcher.h
- /home/lzb/ORBSLAM/my-orbslam2/src/KeyFrame.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/KeyFrame.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -1949,23 +1889,18 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -1980,16 +1915,7 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -2031,7 +1957,6 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrame.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -2102,30 +2027,25 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.o
  ../include/MapPoint.h
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
- /home/lzb/ORBSLAM/my-orbslam2/src/KeyFrameDatabase.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/KeyFrameDatabase.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -2140,16 +2060,7 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann/all_indices.h
@@ -2190,7 +2101,6 @@ src/CMakeFiles/ORB_SLAM2.dir/KeyFrameDatabase.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -2295,7 +2205,7 @@ src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/LocalMapping.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/LocalMapping.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -2507,23 +2417,18 @@ src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -2538,16 +2443,7 @@ src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -2589,7 +2485,6 @@ src/CMakeFiles/ORB_SLAM2.dir/LocalMapping.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -2761,7 +2656,7 @@ src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/LoopClosing.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/LoopClosing.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -2973,23 +2868,18 @@ src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -3004,16 +2894,7 @@ src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -3055,7 +2936,6 @@ src/CMakeFiles/ORB_SLAM2.dir/LoopClosing.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -3190,30 +3070,25 @@ src/CMakeFiles/ORB_SLAM2.dir/Map.cc.o
  ../include/MapPoint.h
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Map.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Map.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -3228,16 +3103,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Map.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann/all_indices.h
@@ -3278,7 +3144,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Map.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -3350,7 +3215,7 @@ src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.o
  ../include/MapPoint.h
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
- /home/lzb/ORBSLAM/my-orbslam2/src/MapDrawer.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/MapDrawer.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Eigen2Support
@@ -3558,23 +3423,18 @@ src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -3589,16 +3449,7 @@ src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann/all_indices.h
@@ -3639,7 +3490,6 @@ src/CMakeFiles/ORB_SLAM2.dir/MapDrawer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -3775,30 +3625,25 @@ src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.o
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
  ../include/ORBmatcher.h
- /home/lzb/ORBSLAM/my-orbslam2/src/MapPoint.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/MapPoint.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -3813,16 +3658,7 @@ src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -3864,7 +3700,6 @@ src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -3919,30 +3754,25 @@ src/CMakeFiles/ORB_SLAM2.dir/MapPoint.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/viz/widgets.hpp
 src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.o
  ../include/ORBextractor.h
- /home/lzb/ORBSLAM/my-orbslam2/src/ORBextractor.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/ORBextractor.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -3957,16 +3787,7 @@ src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -4011,7 +3832,6 @@ src/CMakeFiles/ORB_SLAM2.dir/ORBextractor.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -4083,30 +3903,25 @@ src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.o
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
  ../include/ORBmatcher.h
- /home/lzb/ORBSLAM/my-orbslam2/src/ORBmatcher.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/ORBmatcher.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -4121,16 +3936,7 @@ src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -4173,7 +3979,6 @@ src/CMakeFiles/ORB_SLAM2.dir/ORBmatcher.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -4302,7 +4107,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Optimizer.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Optimizer.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -4576,23 +4381,18 @@ src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -4607,16 +4407,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -4658,7 +4449,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Optimizer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -4795,30 +4585,25 @@ src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.o
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
  ../include/PnPsolver.h
- /home/lzb/ORBSLAM/my-orbslam2/src/PnPsolver.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/PnPsolver.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -4833,16 +4618,7 @@ src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann/all_indices.h
@@ -4883,7 +4659,6 @@ src/CMakeFiles/ORB_SLAM2.dir/PnPsolver.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -4957,30 +4732,25 @@ src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.o
  ../include/ORBextractor.h
  ../include/ORBmatcher.h
  ../include/Sim3Solver.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Sim3Solver.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Sim3Solver.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv/cv.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -4995,16 +4765,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -5046,7 +4807,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Sim3Solver.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -5151,7 +4911,7 @@ src/CMakeFiles/ORB_SLAM2.dir/System.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/System.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/System.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -5363,23 +5123,18 @@ src/CMakeFiles/ORB_SLAM2.dir/System.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -5394,16 +5149,7 @@ src/CMakeFiles/ORB_SLAM2.dir/System.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -5445,7 +5191,6 @@ src/CMakeFiles/ORB_SLAM2.dir/System.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -5617,7 +5362,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Tracking.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Tracking.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -5829,23 +5574,18 @@ src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -5860,16 +5600,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -5911,7 +5642,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Tracking.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
@@ -6078,7 +5808,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.o
  ../include/System.h
  ../include/Tracking.h
  ../include/Viewer.h
- /home/lzb/ORBSLAM/my-orbslam2/src/Viewer.cc
+ /home/lzb/G-ORBSLAM/my-orbslam2/src/Viewer.cc
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense
@@ -6290,23 +6020,18 @@ src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/calib3d/calib3d_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/affine.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/async.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/base.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/bufferpool.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/check.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/core_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cuda_types.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_dispatch.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cv_cpu_helper.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvdef.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/cvstd.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/fast_math.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/interface.h
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/hal/msa_macros.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/mat.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/matx.hpp
@@ -6321,16 +6046,7 @@ src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utility.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/instrumentation.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/utils/tls.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/version.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/core/vsx_utils.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dict.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/dnn.inl.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/layer.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/dnn/utils/inference_engine.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/features2d/features2d.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/flann.hpp
@@ -6372,7 +6088,6 @@ src/CMakeFiles/ORB_SLAM2.dir/Viewer.cc.o
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/imgproc_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/imgproc/types_c.h
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml.hpp
- /usr/local/lib/cmake/Pangolin/../../../include/opencv2/ml/ml.inl.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/detection_based_tracker.hpp
  /usr/local/lib/cmake/Pangolin/../../../include/opencv2/objdetect/objdetect_c.h
