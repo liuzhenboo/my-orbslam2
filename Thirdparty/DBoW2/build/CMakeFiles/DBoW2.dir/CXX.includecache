@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp
 iostream
 -
 fstream
@@ -18,9 +18,9 @@ algorithm
 cmath
 -
 BowVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 iostream
 -
 map
@@ -28,9 +28,9 @@ map
 vector
 -
 ../DUtils/config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FClass.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FClass.h
 opencv2/core/core.hpp
 -
 vector
@@ -38,9 +38,9 @@ vector
 string
 -
 ../DUtils/config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FORB.cpp
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FORB.cpp
 vector
 -
 string
@@ -52,9 +52,9 @@ stdint.h
 limits.h
 -
 FORB.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FORB.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FORB.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FORB.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FORB.h
 opencv2/core/core.hpp
 -
 vector
@@ -62,13 +62,13 @@ vector
 string
 -
 FClass.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FClass.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FClass.h
 ../DUtils/config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
 FeatureVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 map
 -
 vector
@@ -76,9 +76,9 @@ vector
 iostream
 -
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 map
 -
 vector
@@ -86,23 +86,23 @@ vector
 iostream
 -
 ../DUtils/config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
 cfloat
 -
 TemplatedVocabulary.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
 BowVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
 BowVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 ../DUtils/config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
 cassert
 -
 vector
@@ -120,33 +120,33 @@ opencv2/core/core.hpp
 limits
 -
 FeatureVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 ScoringObject.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
 ../DUtils/Random.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.h
 ../DUtils/config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.cpp
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.cpp
 Random.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.h
 Timestamp.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.h
 cstdlib
 -
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Random.h
 cstdlib
 -
 vector
 -
 config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp
 cstdio
 -
 cstdlib
@@ -164,15 +164,15 @@ sys/timeb.h
 sys/time.h
 -
 Timestamp.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/Timestamp.h
 iostream
 -
 config.h
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
-/home/lzb/ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
+/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/DUtils/config.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
@@ -211,6 +211,10 @@ opencv2/core/mat.hpp
 /usr/local/include/opencv2/opencv2/core/mat.hpp
 opencv2/core/persistence.hpp
 /usr/local/include/opencv2/opencv2/core/persistence.hpp
+opencv2/opencv.hpp
+/usr/local/include/opencv2/opencv2/opencv.hpp
+opencv2/xfeatures2d.hpp
+/usr/local/include/opencv2/opencv2/xfeatures2d.hpp
 opencv2/core/operations.hpp
 /usr/local/include/opencv2/opencv2/core/operations.hpp
 opencv2/core/cvstd.inl.hpp
@@ -226,12 +230,6 @@ opencv2/core/ovx.hpp
 opencv2/core.hpp
 -
 
-/usr/local/include/opencv2/core/async.hpp
-opencv2/core/mat.hpp
--
-chrono
--
-
 /usr/local/include/opencv2/core/base.hpp
 opencv2/opencv_modules.hpp
 /usr/local/include/opencv2/core/opencv2/opencv_modules.hpp
@@ -245,16 +243,8 @@ opencv2/core/cvstd.hpp
 /usr/local/include/opencv2/core/opencv2/core/cvstd.hpp
 opencv2/core/neon_utils.hpp
 /usr/local/include/opencv2/core/opencv2/core/neon_utils.hpp
-opencv2/core/vsx_utils.hpp
-/usr/local/include/opencv2/core/opencv2/core/vsx_utils.hpp
-opencv2/core/check.hpp
-/usr/local/include/opencv2/core/opencv2/core/check.hpp
 
 /usr/local/include/opencv2/core/bufferpool.hpp
-
-/usr/local/include/opencv2/core/check.hpp
-opencv2/core/base.hpp
--
 
 /usr/local/include/opencv2/core/core.hpp
 opencv2/core.hpp
@@ -275,8 +265,6 @@ opencv2/core.hpp
 /usr/local/include/opencv2/core/opencv2/core.hpp
 opencv2/core/cuda_types.hpp
 /usr/local/include/opencv2/core/opencv2/core/cuda_types.hpp
-opencv2/opencv.hpp
--
 opencv2/core/cuda.inl.hpp
 /usr/local/include/opencv2/core/opencv2/core/cuda.inl.hpp
 
@@ -286,11 +274,11 @@ opencv2/core/cuda.hpp
 
 /usr/local/include/opencv2/core/cuda_types.hpp
 
-/usr/local/include/opencv2/core/cv_cpu_dispatch.h
-cv_cpu_config.h
-/usr/local/include/opencv2/core/cv_cpu_config.h
-cv_cpu_helper.h
-/usr/local/include/opencv2/core/cv_cpu_helper.h
+/usr/local/include/opencv2/core/cvdef.h
+limits.h
+-
+opencv2/core/hal/interface.h
+/usr/local/include/opencv2/core/opencv2/core/hal/interface.h
 emmintrin.h
 -
 pmmintrin.h
@@ -307,12 +295,6 @@ popcntintrin.h
 -
 immintrin.h
 -
-arm_neon.h
--
-immintrin.h
--
-immintrin.h
--
 immintrin.h
 -
 Intrin.h
@@ -321,48 +303,8 @@ arm_neon.h
 -
 arm_neon.h
 -
-arm_neon.h
--
-altivec.h
--
-hal/msa_macros.h
-/usr/local/include/opencv2/core/hal/msa_macros.h
-wasm_simd128.h
--
-emmintrin.h
--
-Intrin.h
--
-arm_neon.h
--
-arm_neon.h
--
-altivec.h
--
-
-/usr/local/include/opencv2/core/cv_cpu_helper.h
-
-/usr/local/include/opencv2/core/cvdef.h
-cvconfig.h
-/usr/local/include/opencv2/core/cvconfig.h
-limits.h
--
-opencv2/core/hal/interface.h
-/usr/local/include/opencv2/core/opencv2/core/hal/interface.h
-cv_cpu_dispatch.h
-/usr/local/include/opencv2/core/cv_cpu_dispatch.h
 intrin.h
 -
-array
--
-cstdint
--
-stdint.h
--
-stdint.h
--
-opencv2/core/fast_math.hpp
-/usr/local/include/opencv2/core/opencv2/core/fast_math.hpp
 
 /usr/local/include/opencv2/core/cvstd.hpp
 opencv2/core/cvdef.h
@@ -395,16 +337,14 @@ ostream
 /usr/local/include/opencv2/core/fast_math.hpp
 opencv2/core/cvdef.h
 /usr/local/include/opencv2/core/opencv2/core/cvdef.h
-cmath
--
 fastmath.h
+-
+cmath
 -
 math.h
 -
-emmintrin.h
--
-altivec.h
--
+tegra_round.hpp
+/usr/local/include/opencv2/core/tegra_round.hpp
 
 /usr/local/include/opencv2/core/hal/interface.h
 cstddef
@@ -418,12 +358,6 @@ cstdint
 stdint.h
 -
 
-/usr/local/include/opencv2/core/hal/msa_macros.h
-msa.h
-/usr/local/include/opencv2/core/hal/msa.h
-stdint.h
--
-
 /usr/local/include/opencv2/core/mat.hpp
 opencv2/core/matx.hpp
 /usr/local/include/opencv2/core/opencv2/core/matx.hpp
@@ -431,8 +365,6 @@ opencv2/core/types.hpp
 /usr/local/include/opencv2/core/opencv2/core/types.hpp
 opencv2/core/bufferpool.hpp
 /usr/local/include/opencv2/core/opencv2/core/bufferpool.hpp
-type_traits
--
 opencv2/core/mat.inl.hpp
 /usr/local/include/opencv2/core/opencv2/core/mat.inl.hpp
 
@@ -447,8 +379,6 @@ opencv2/core/traits.hpp
 /usr/local/include/opencv2/core/opencv2/core/traits.hpp
 opencv2/core/saturate.hpp
 /usr/local/include/opencv2/core/opencv2/core/saturate.hpp
-initializer_list
--
 
 /usr/local/include/opencv2/core/neon_utils.hpp
 opencv2/core/cvdef.h
@@ -527,78 +457,12 @@ opencv2/core.hpp
 /usr/local/include/opencv2/core/utility.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/core/opencv2/core.hpp
-ostream
--
-functional
--
-opencv2/core/utils/instrumentation.hpp
-/usr/local/include/opencv2/core/opencv2/core/utils/instrumentation.hpp
 opencv2/core/core_c.h
 /usr/local/include/opencv2/core/opencv2/core/core_c.h
 
-/usr/local/include/opencv2/core/utils/instrumentation.hpp
-opencv2/core/utility.hpp
--
-opencv2/core/utils/tls.hpp
--
-
-/usr/local/include/opencv2/core/utils/tls.hpp
-opencv2/core/utility.hpp
--
-
 /usr/local/include/opencv2/core/version.hpp
 
-/usr/local/include/opencv2/core/vsx_utils.hpp
-opencv2/core/cvdef.h
-/usr/local/include/opencv2/core/opencv2/core/cvdef.h
-assert.h
--
-
-/usr/local/include/opencv2/dnn.hpp
-opencv2/dnn/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/dict.hpp
-opencv2/core.hpp
--
-map
--
-ostream
--
-opencv2/dnn/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/dnn.hpp
-vector
--
-opencv2/core.hpp
--
-opencv2/core/async.hpp
-/usr/local/include/opencv2/dnn/opencv2/core/async.hpp
-opencv2/dnn/dict.hpp
--
-opencv2/dnn/layer.hpp
--
-opencv2/dnn/dnn.inl.hpp
--
-opencv2/dnn/utils/inference_engine.hpp
--
-
-/usr/local/include/opencv2/dnn/dnn.inl.hpp
-opencv2/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/layer.hpp
-opencv2/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/utils/inference_engine.hpp
-../dnn.hpp
-/usr/local/include/opencv2/dnn/dnn.hpp
-
 /usr/local/include/opencv2/features2d.hpp
-opencv2/opencv_modules.hpp
-/usr/local/include/opencv2/opencv2/opencv_modules.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
 opencv2/flann/miniflann.hpp
@@ -651,8 +515,6 @@ typeinfo
 -
 
 /usr/local/include/opencv2/flann/autotuned_index.h
-sstream
--
 general.h
 /usr/local/include/opencv2/flann/general.h
 nn_index.h
@@ -1053,6 +915,8 @@ opencv2/videoio/videoio_c.h
 /usr/local/include/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
+opencv2/opencv.hpp
+-
 
 /usr/local/include/opencv2/imgcodecs/imgcodecs_c.h
 opencv2/core/core_c.h
@@ -1061,6 +925,34 @@ opencv2/core/core_c.h
 /usr/local/include/opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
+opencv2/core.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+iostream
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
+-
+math.h
+-
+opencv2/imgproc.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/imgproc.hpp
+/usr/local/include/opencv2/opencv2/imgproc.hpp
+opencv2/highgui.hpp
+/usr/local/include/opencv2/opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 /usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
 
@@ -1081,10 +973,6 @@ map
 -
 iostream
 -
-opencv2/ml/ml.inl.hpp
--
-
-/usr/local/include/opencv2/ml/ml.inl.hpp
 
 /usr/local/include/opencv2/objdetect.hpp
 opencv2/core.hpp
@@ -1095,8 +983,6 @@ opencv2/objdetect/objdetect_c.h
 /usr/local/include/opencv2/opencv2/objdetect/objdetect_c.h
 
 /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
-opencv2/core.hpp
--
 vector
 -
 
@@ -1117,8 +1003,6 @@ opencv2/calib3d.hpp
 /usr/local/include/opencv2/opencv2/calib3d.hpp
 opencv2/features2d.hpp
 /usr/local/include/opencv2/opencv2/features2d.hpp
-opencv2/dnn.hpp
-/usr/local/include/opencv2/opencv2/dnn.hpp
 opencv2/flann.hpp
 /usr/local/include/opencv2/opencv2/flann.hpp
 opencv2/highgui.hpp
@@ -1239,8 +1123,6 @@ opencv2/stitching/detail/camera.hpp
 /usr/local/include/opencv2/stitching/detail/blenders.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/stitching/detail/opencv2/core.hpp
-opencv2/core/cuda.hpp
-/usr/local/include/opencv2/stitching/detail/opencv2/core/cuda.hpp
 
 /usr/local/include/opencv2/stitching/detail/camera.hpp
 opencv2/core.hpp

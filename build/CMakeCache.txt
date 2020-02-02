@@ -14,6 +14,27 @@
 # EXTERNAL cache entries
 ########################
 
+//Build Examples
+BUILD_Examples:BOOL=ON
+
+//Build Monocular
+BUILD_Monocular:BOOL=ON
+
+//Build Rgbd
+BUILD_Rgbd:BOOL=ON
+
+//Build Src
+BUILD_Src:BOOL=ON
+
+//Build Stereo
+BUILD_Stereo:BOOL=ON
+
+//Build Tools
+BUILD_Tools:BOOL=ON
+
+//Build bin vocabulary
+BUILD_bin_vocabulary:BOOL=ON
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -181,17 +202,26 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+EIGEN3_INCLUDE_DIR:PATH=/usr/local/include/eigen3
+
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=Eigen3_DIR-NOTFOUND
 
 //Value Computed by CMake
 ORB_SLAM2_BINARY_DIR:STATIC=/home/lzb/G-ORBSLAM/my-orbslam2/build
 
+//Dependencies for the target
+ORB_SLAM2_LIB_DEPENDS:STATIC=general;opencv_calib3d;general;opencv_core;general;opencv_features2d;general;opencv_flann;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_ml;general;opencv_objdetect;general;opencv_photo;general;opencv_shape;general;opencv_stitching;general;opencv_superres;general;opencv_video;general;opencv_videoio;general;opencv_videostab;general;opencv_viz;general;pangolin;general;/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/DBoW2/lib/libDBoW2.so;general;/home/lzb/G-ORBSLAM/my-orbslam2/Thirdparty/g2o/lib/libg2o.so;
+
 //Value Computed by CMake
 ORB_SLAM2_SOURCE_DIR:STATIC=/home/lzb/G-ORBSLAM/my-orbslam2
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/share/OpenCV
+
+//The directory containing a CMake configuration file for Pangolin.
+Pangolin_DIR:PATH=/usr/local/lib/cmake/Pangolin
 
 
 ########################
@@ -292,7 +322,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -337,4 +367,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 COMPILER_SUPPORTS_CXX0X:INTERNAL=1
 //Test COMPILER_SUPPORTS_CXX11
 COMPILER_SUPPORTS_CXX11:INTERNAL=1
+//ADVANCED property for variable: EIGEN3_INCLUDE_DIR
+EIGEN3_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//Details about finding Eigen3
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/usr/local/include/eigen3][TRUE][v(3.1.0)]
 
