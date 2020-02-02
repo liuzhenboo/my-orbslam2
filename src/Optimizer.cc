@@ -649,8 +649,9 @@ void Optimizer::LocalBundleAdjustment(KeyFrame *pKF, bool *pbStopFlag, Map *pMap
 
     if (pbStopFlag)
         if (*pbStopFlag)
+        {
             return;
-
+        }
     optimizer.initializeOptimization();
     optimizer.optimize(5);
 

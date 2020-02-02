@@ -60,11 +60,13 @@ void LocalMapping::Run()
         // 查看mlNewKeyFrames中是否有关键帧(是否为空)
         if (CheckNewKeyFrames())
         {
-#ifdef COMPILEDWITHC11
+
+            // 统计建图时间
+            /*#ifdef COMPILEDWITHC11
             std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
 #else
             std::chrono::monotonic_clock::time_point t1 = std::chrono::monotonic_clock::now();
-#endif
+#endif*/
 
             // BoW conversion and insertion in Map
             ProcessNewKeyFrame();
@@ -81,29 +83,32 @@ void LocalMapping::Run()
                 SearchInNeighbors();
             }
 
-            //这句话不需要，而且在含有mbAbortBA的函数中需要加上锁，InterruptBA()
-            //mbAbortBA = false;
+            //mbAbortBA == false
 
+            // 如果检查到缓存中已经没有关键帧，并且其他线程没有请求停止，那么进行localBA与关键帧筛选
             if (!CheckNewKeyFrames() && !stopRequested())
             {
                 // Local BA
                 if (mpMap->KeyFramesInMap() > 2)
+                {
                     Optimizer::LocalBundleAdjustment(mpCurrentKeyFrame, &mbAbortBA, mpMap);
-
+                }
                 // Check redundant local Keyframes
                 KeyFrameCulling();
             }
 
             mpLoopCloser->InsertKeyFrame(mpCurrentKeyFrame);
-#ifdef COMPILEDWITHC11
+            
+            /*#ifdef COMPILEDWITHC11
             std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
 #else
             std::chrono::monotonic_clock::time_point t2 = std::chrono::monotonic_clock::now();
 #endif
 
             double mapping = std::chrono::duration_cast<std::chrono::duration<double>>(t2 - t1).count();
-            cout << "建图时间：" << 1000 * (mapping) << endl;
+            cout << "建图时间：" << 1000 * (mapping) << endl;*/
         }
+
         // 如果mlNewKeyFrames为空，表示没有关键帧传过来，所以要查看是什么原因导致的；
         // 有可能是检测到回环或者切换到定位模式等，这些种情况：mbStopRequested = true;
         // 当mbStopRequested = true时候，有可能tracking线程还有一个关键帧，这时候mbNotStop标志位表示是当前立即停止还是先处理完最后一帧
@@ -132,6 +137,7 @@ void LocalMapping::Run()
         // 它既不能影响跟踪得到的关键帧插入，又不能影响建图的速度；
         // 如果过大，会导致地图点建立过慢，跟踪丢失；
         // 如果过小，会导致关键帧过少；
+        // 使用3毫秒，LocalMapping缓存的关键帧基本为0
         usleep(3000);
     }
 
@@ -142,7 +148,8 @@ void LocalMapping::InsertKeyFrame(KeyFrame *pKF)
 {
     unique_lock<mutex> lock(mMutexNewKFs);
     mlNewKeyFrames.push_back(pKF);
-    mbAbortBA = true;
+    //mbAbortBA = true;
+    mbAbortBA = false;
 }
 
 bool LocalMapping::CheckNewKeyFrames()
@@ -157,6 +164,8 @@ void LocalMapping::ProcessNewKeyFrame()
         unique_lock<mutex> lock(mMutexNewKFs);
         mpCurrentKeyFrame = mlNewKeyFrames.front();
         mlNewKeyFrames.pop_front();
+        // 查看缓存多少关键帧
+        // cout << mlNewKeyFrames.size() << endl;
     }
 
     // Compute Bags of Words structures
@@ -189,7 +198,7 @@ void LocalMapping::ProcessNewKeyFrame()
     // Update links in the Covisibility Graph
     mpCurrentKeyFrame->UpdateConnections();
 
-    // Insert Keyframe in Map
+    //Insert Keyframe in Map
     mpMap->AddKeyFrame(mpCurrentKeyFrame);
 }
 
