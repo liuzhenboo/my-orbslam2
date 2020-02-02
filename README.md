@@ -9,7 +9,11 @@ opencv3.4
 
 ## 运行单目
 ### TUM
-    ./bin/examples/monocular/mono_tum Vocabulary/ORBvoc.bin Examples/Monocular/TUM1.yaml ~/G-ORBSLAM/data/rgbd_dataset_freiburg1_desk/
+./bin/examples/monocular/mono_tum Vocabulary/ORBvoc.bin Examples/Monocular/TUM1.yaml ~/G-ORBSLAM/data/rgbd_dataset_freiburg1_desk/
 
 ### EuRoC
 ./bin/examples/monocular/mono_euroc Vocabulary/ORBvoc.bin Examples/Monocular/EuRoC.yaml ~/G-ORBSLAM/data/euroc/mav0/cam0/data Examples/Monocular/EuRoC_TimeStamps/V201.txt
+
+## 双目
+## EuRoc
+./bin/examples/stereo/stereo_euroc Vocabulary/ORBvoc.bin Examples/Stereo/EuRoC.yaml ~/G-ORBSLAM/data/euroc/mav0/cam0/data ~/G-ORBSLAM/data/euroc/mav0/cam1/data Examples/Stereo/EuRoC_TimeStamps/V201.txt
