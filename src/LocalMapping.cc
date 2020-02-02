@@ -83,7 +83,7 @@ void LocalMapping::Run()
                 KeyFrameCulling();
             }
 
-            //mpLoopCloser->InsertKeyFrame(mpCurrentKeyFrame);
+            mpLoopCloser->InsertKeyFrame(mpCurrentKeyFrame);
         }
         else if (Stop())
         {

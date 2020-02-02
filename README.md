@@ -5,3 +5,7 @@
 # 库版本
 eigen3.2
 opencv3.4
+
+## tum
+双目
+./bin/examples/stereo/stereo_euroc Vocabulary/ORBvoc.bin Examples/Stereo/EuRoC.yaml ~/G-ORBSLAM/data/euroc/mav0/cam0/data ~/G-ORBSLAM/data/euroc/mav0/cam1/data Examples/Stereo/EuRoC_TimeStamps/V201.txt
